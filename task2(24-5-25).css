@@ -1,0 +1,51 @@
+.nav{
+    height: 30px;
+    width: 1450px;
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.inner{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+#one{
+    background-color: orange;
+    color: white;
+    border: 2px solid red;
+}
+#two{
+    background-color: yellow;
+    color: red;
+     border: 2px dotted red;
+     border-radius: 30px;
+     font-family: 'Brush Script MT', cursive;
+}
+#three{
+    background-color: rgba(255, 255, 255, 0.432);
+    color: blue;
+    font-family: 'Brush Script MT', cursive;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+body{
+    background-image: url("vecteezy_ai-generated-space-starscape-clouds-and-stars-in-pink_35847186.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+
+    padding: 12px;
+}
